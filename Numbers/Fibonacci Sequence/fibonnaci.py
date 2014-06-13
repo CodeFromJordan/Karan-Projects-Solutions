@@ -13,11 +13,15 @@ def calculateFibonacciTo(number):
 
         #nextPos = sum of previous two values
         values.append(values[nextPos - 2] + values[nextPos - 1])
-    print values
+
+    return values
 
 def main():
-	number = int(raw_input("Calculate fib to? "))
-	calculateFibonacciTo(number)
+    number = int(raw_input("Calculate fib to? ")) # Get user input
+
+    fibonacciSequence = calculateFibonacciTo(number) # Get output
+
+    print fibonacciSequence
 
 if __name__ == "__main__":
     main()

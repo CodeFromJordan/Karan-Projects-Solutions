@@ -4,12 +4,12 @@
 # Solution to karan projects:
 #   Project title here
 
-if __name__ == "main":
-    main()
+# Performs some task
+def performSolution():
+	# Calculate here
 
 def main():
 	performSolution()
 
-# Performs some task
-def performSolution():
-	# Calculate here
+if __name__ == "__main__":
+    main()
